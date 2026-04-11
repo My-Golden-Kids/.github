@@ -62,7 +62,7 @@
 ![PNPM](https://img.shields.io/badge/PNPM-FFCA28?style=for-the-badge&logo=pnpm&logoColor=black)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
 
-### 📱 Mobile & Hybrid
+### [Mobile & Hybrid]
 ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white)
 ![Apple HealthKit](https://img.shields.io/badge/Apple%20HealthKit-F92E2E?style=for-the-badge&logo=apple-health&logoColor=white)
@@ -83,3 +83,165 @@
 
 ## 🪧 ERD
 <img width="700" height="700" alt="erd_mgk" src="https://github.com/user-attachments/assets/ce967b9e-b4d9-4b6b-bdb9-645ec1470f60" />
+
+### 1. users
+
+| 속성명 | 타입(추정) | 설명 |
+|---|---|---|
+| id | bigint | 사용자 고유 식별자(PK) |
+| name | varchar(100) | 사용자 이름 |
+| email | varchar(255) | 로그인 및 인증에 사용하는 이메일, 유니크 |
+| password | varchar(255) | 저장된 비밀번호 문자열 |
+| email_verified_at | datetime, nullable | 이메일 인증 완료 시각 |
+| deleted_at | datetime, nullable | 탈퇴 처리 시각 |
+| created_at | datetime | 회원 생성 시각 |
+| updated_at | datetime | 회원 정보 수정 시각 |
+
+### 2. accounts
+
+| 속성명 | 타입(추정) | 설명 |
+|---|---|---|
+| id | bigint | 계좌 고유 식별자(PK) |
+| user_id | bigint | 사용자 FK -> `users.id` |
+| account_number | varchar(50) | 계좌번호, 유니크 |
+| bank_name | varchar(100) | 은행명 |
+| money_amount | decimal(19,2) | 예치 금액 |
+| reward_amount | decimal(19,2) | 적립 금액 |
+| total_amount | decimal(19,2) | 총 금액 |
+| created_at | datetime | 계좌 생성 시각 |
+| updated_at | datetime | 계좌 수정 시각 |
+
+### 3. account_books
+
+| 속성명 | 타입(추정) | 설명 |
+|---|---|---|
+| id | bigint | 가계부 고유 식별자(PK) |
+| user_id | bigint | 사용자 FK -> `users.id` |
+| pet_id | bigint, nullable | 반려동물 FK -> `pets.id` |
+| account_id | bigint, nullable | 계좌 FK -> `accounts.id` |
+| title | varchar(200) | 지출/수입 제목 |
+| amount | decimal(19,2) | 금액 |
+| category | varchar(20) | 가계부 카테고리 enum (`Hospital`, `Food`, `Etc`) |
+| memo | varchar(1000), nullable | 메모 |
+| spend_date | datetime | 사용/지출 시각 |
+| created_at | datetime | 생성 시각 |
+| updated_at | datetime | 수정 시각 |
+
+### 4. calendars
+
+| 속성명 | 타입(추정) | 설명 |
+|---|---|---|
+| id | bigint | 캘린더 이벤트 고유 식별자(PK) |
+| pet_id | bigint | 반려동물 FK -> `pets.id` |
+| name | varchar(200) | 일정명 |
+| date | date | 일정 날짜 |
+| memo | varchar(1000), nullable | 일정 메모 |
+| event_type | varchar(100) | 이벤트 유형 |
+| created_at | datetime | 생성 시각 |
+| updated_at | datetime | 수정 시각 |
+
+### 5. maps
+
+| 속성명 | 타입(추정) | 설명 |
+|---|---|---|
+| id | bigint | 위치 고유 식별자(PK) |
+| name | varchar(200) | 장소명 |
+| latitude | decimal(10,7) | 위도 |
+| longitude | decimal(10,7) | 경도 |
+| category | varchar(100) | 장소 카테고리 |
+
+### 6. medical_documents
+
+| 속성명 | 타입(추정) | 설명 |
+|---|---|---|
+| id | bigint | 진료 문서 고유 식별자(PK) |
+| pet_id | bigint | 반려동물 FK -> `pets.id` |
+| pet_name | varchar(100) | 반려동물 이름 |
+| date | date, nullable | 진료/접종 날짜 |
+| type | varchar(50) | 문서 유형 enum (`VACCINATION`, `CHECKUP`, `ETC`) |
+| hospital_name | varchar(255) | 병원명 |
+| details | varchar(2000), nullable | 진료 상세 내용 |
+| total_amount | int, nullable | 총 금액 |
+| image_url | varchar(255), nullable 추정 | 증빙 이미지 경로 |
+| created_at | datetime | 문서 등록 시각 |
+
+### 7. pets
+
+| 속성명 | 타입(추정) | 설명 |
+|---|---|---|
+| id | bigint | 반려동물 고유 식별자(PK) |
+| user_id | bigint | 사용자 FK -> `users.id` |
+| name | varchar(100) | 반려동물 이름 |
+| species | varchar(100), nullable | 종/품종 |
+| image | varchar(100), nullable | 프로필 이미지 경로 |
+| age | double, nullable | 나이 |
+| size | varchar(20), nullable | 크기 enum (`소형`, `중형`, `대형`) |
+| walk_count | int, nullable | 누적 산책 수치 |
+| walk_time | int, nullable | 누적 산책 시간 |
+| last_walk_at | datetime, nullable | 마지막 산책 시각 |
+| eat_meal | varchar(10), nullable | 식사 여부 enum (`YES`, `NO`) |
+| created_at | datetime | 생성 시각 |
+| updated_at | datetime | 수정 시각 |
+
+### 8. pet_walk_records
+
+| 속성명 | 타입(추정) | 설명 |
+|---|---|---|
+| id | bigint | 산책 기록 고유 식별자(PK) |
+| pet_id | bigint | 반려동물 FK -> `pets.id` |
+| source | varchar(50) | 산책 데이터 출처 |
+| walked_at | datetime | 산책 기준 시각 |
+| step_count | int | 걸음 수 |
+| walk_time_seconds | int | 산책 시간(초) |
+| distance_km | double | 이동 거리(km) |
+| reward_amount | int | 적립 보상 수치 |
+| completed | boolean, nullable | 산책 완료 여부 |
+| status | varchar(20), nullable | 산책 상태 |
+| started_at | datetime, nullable | 산책 시작 시각 |
+| ended_at | datetime, nullable | 산책 종료 시각 |
+| created_at | datetime | 생성 시각 |
+| updated_at | datetime | 수정 시각 |
+
+### 9. products
+
+| 속성명 | 타입(추정) | 설명 |
+|---|---|---|
+| id | bigint | 상품 고유 식별자(PK) |
+| name | varchar(200) | 상품명 |
+| product_type | varchar(30) | 상품 유형 enum (`INSURANCE`, `SAVINGS`, `CARD`) |
+| description | varchar(1000), nullable | 상품 설명 |
+| url | varchar(255), nullable | 상품 링크 |
+| benefit_rate | decimal(10,2), nullable | 혜택 비율 |
+| benefit_amount | decimal(19,2), nullable | 혜택 금액 |
+| benefit_limit_amount | decimal(19,2), nullable | 혜택 한도 금액 |
+| benefit_limit_count | int, nullable | 혜택 한도 횟수 |
+| benefit_period | varchar(20), nullable | 한도 기간 enum (`MONTH`, `YEAR`) |
+| target_category | varchar(255), nullable | 타겟 카테고리 |
+| source_type | varchar(30) | 참조 데이터 소스 enum (`ACCOUNT_BOOK`, `ACCOUNT`) |
+| is_active | boolean | 활성 여부 |
+| created_at | datetime | 생성 시각 |
+| updated_at | datetime | 수정 시각 |
+
+### 10. transactions
+
+| 속성명 | 타입(추정) | 설명 |
+|---|---|---|
+| id | bigint | 거래 고유 식별자(PK) |
+| send_user_id | bigint | 송신 사용자 FK -> `users.id` |
+| receive_user_id | bigint, nullable | 수신 사용자 FK -> `users.id` |
+| account_id | bigint | 계좌 FK -> `accounts.id` |
+| amount | decimal(19,2) | 거래 금액 |
+| type | varchar(10) | 거래 유형 enum (`IN`, `OUT`) |
+| category | varchar(100) | 거래 카테고리 |
+| created_at | datetime | 거래 생성 시각 |
+
+### 11. verifications
+
+| 속성명 | 타입(추정) | 설명 |
+|---|---|---|
+| id | bigint | 인증 레코드 고유 식별자(PK) |
+| user_id | bigint | 사용자 FK -> `users.id` |
+| identifier | varchar(255) | 인증 식별자 |
+| token | varchar(255), nullable | 인증 토큰 |
+| expires_at | datetime | 만료 시각 |
+| created_at | datetime | 생성 시각 |
