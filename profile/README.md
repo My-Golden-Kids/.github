@@ -74,6 +74,12 @@
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 -->
 
+## 🦞 주요 기능
+.
+
+## 💭 확장 가능성
+.
+
 ## 🧱 System Architecture
 <img src="https://ai.google.com/static/images/diagram-hybrid-cloud-overview.png" alt="MyGoldenKids System Architecture Diagram" width="700" />
   
