@@ -4,17 +4,16 @@ on:
   push:
     paths:
       - 'profile/README.md' # profile 폴더의 리드미가 수정될 때만 실행
+  workflow_dispatch: # 직접 버튼을 눌러 actions 실행
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Copy README to root
-        run: |
-          cp profile/README.md README.md
+        run: cp profile/README.md README.md
           
       - name: Commit and Push changes
         run: |
