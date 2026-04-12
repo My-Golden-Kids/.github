@@ -74,6 +74,9 @@
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 -->
 
+## 🌁 배경
+.
+
 ## 🦞 주요 기능
 .
 
@@ -88,7 +91,7 @@
 > Spring Boot 백엔드는 Gemini AI(대화형 STS), Google Vision OCR, 마이데이터 연동 서비스를 처리합니다.
 
 ## 🪧 ERD
-<img width="700" height="700" alt="erd_mgk" src="https://github.com/user-attachments/assets/ce967b9e-b4d9-4b6b-bdb9-645ec1470f60" />
+.
 
 ### 1. users
 
