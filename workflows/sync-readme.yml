@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'profile/README.md' # profile 폴더의 리드미가 수정될 때만 실행
+  workflow_dispatch: # 수동 실행 버튼 생성
 
 jobs:
   sync:
