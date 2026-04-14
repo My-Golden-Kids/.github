@@ -74,15 +74,6 @@
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 -->
 
-## 🌁 배경
-.
-
-## 🦞 주요 기능
-.
-
-## 💭 확장 가능성
-.
-
 ## 🧱 System Architecture
 <img src="https://ai.google.com/static/images/diagram-hybrid-cloud-overview.png" alt="MyGoldenKids System Architecture Diagram" width="700" />
   
@@ -91,7 +82,7 @@
 > Spring Boot 백엔드는 Gemini AI(대화형 STS), Google Vision OCR, 마이데이터 연동 서비스를 처리합니다.
 
 ## 🪧 ERD
-.
+<img width="700" height="700" alt="erd_mgk" src="https://github.com/user-attachments/assets/e61d01e0-ff65-4c5b-89d9-f4bd40d65081" />
 
 ### 1. users
 
