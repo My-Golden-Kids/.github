@@ -74,21 +74,15 @@
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 -->
 
-## 🦞 주요 기능
-.
-
-## 💭 확장 가능성
-.
-
 ## 🧱 System Architecture
-.
+<img src="https://ai.google.com/static/images/diagram-hybrid-cloud-overview.png" alt="MyGoldenKids System Architecture Diagram" width="700" />
   
 > 시니어 사용자의 음성 및 OCR(영수증 스캔) 입력을 기반으로 한 하이브리드 모바일 앱 시스템 구성도입니다.
 > Next.js 기반의 프론트엔드와 iOS HealthKit API를 네이티브 컨테이너로 통합했으며,
 > Spring Boot 백엔드는 Gemini AI(대화형 STS), Google Vision OCR, 마이데이터 연동 서비스를 처리합니다.
 
 ## 🪧 ERD
-<img width="700" height="700" alt="erd_mgk" src="https://github.com/user-attachments/assets/ce967b9e-b4d9-4b6b-bdb9-645ec1470f60" />
+<img width="700" height="700" alt="erd_mgk" src="https://github.com/user-attachments/assets/e61d01e0-ff65-4c5b-89d9-f4bd40d65081" />
 
 ### 1. users
 
