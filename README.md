@@ -2,7 +2,6 @@
   <img width="2000" height="800" alt="readme" src="https://github.com/user-attachments/assets/0cc83d1a-4c12-40dc-a53c-5ad3418afccf" />
 </p>
 
-# 보이스 / 알람 기반 시니어 반려가구를 위한 생활금융 서비스
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=My-Golden-Kids-MGK&color=00A58C&style=for-the-badge&label=👀" alt="Visitors" />
   
@@ -18,6 +17,10 @@
     <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" alt="Google Sheets" />
   </a>
 </div>
+
+# 보이스 / 알람 기반 시니어 반려가구를 위한 생활금융 서비스
+
+> 하나은행의 생활금융, “금쪽같은 내 새끼”로 더 넓혀드리겠습니다
 
 ## 💭 개요
 <img width="800" height="450" alt="금쪽같은 내새끼 PPT_page-0010" src="https://github.com/user-attachments/assets/2babe1ac-e261-4267-ab3c-d819961cf42e" />
@@ -42,6 +45,7 @@
 </p>
 
 ## 👫 금쪽이들
+> 시니어(백엔드·파이널) 프로젝트 1팀
 <img width="800" height="450" alt="금쪽같은 내새끼 PPT_page-0033" src="https://github.com/user-attachments/assets/dc617277-b26e-4435-b8db-a751c206f197" />
 
 <br>
@@ -106,16 +110,21 @@
 - 반려동물 이름/사진 기반 온보딩 제공
 - 사용자별 반려동물 다중 관리 지원
 
-<img width="800" height="450" alt="금쪽같은 내새끼 PPT_page-0020" src="https://github.com/user-attachments/assets/f4f9f2ca-b8dd-4bda-ac5b-81b13d9d4a2c" />
 
 ### 2. 홈 대시보드
+<img width="800" height="450" alt="금쪽같은 내새끼 PPT_page-0020" src="https://github.com/user-attachments/assets/f4f9f2ca-b8dd-4bda-ac5b-81b13d9d4a2c" />
+
+<br>
+
 - 선택한 반려동물 프로필 중심 홈 화면 제공
 - 소비 요약 정보 표시
 - 오늘 일정, 급여, 산책 시간 기반 알림 버블 제공
 
+### 3. 음성 대화 인터페이스
 <img width="800" height="450" alt="금쪽같은 내새끼 PPT_page-0021" src="https://github.com/user-attachments/assets/99fcb599-69d8-43c0-a0a4-8c74a763a430" />
 
-### 3. 음성 대화 인터페이스
+<br>
+
 - 음성 인식 기반 질의응답 지원
 - “산책”, “접종”, “병원기록”, “재정”, “상품” 등 주요 화면 이동 지원
 - Gemini 기반 응답 생성
@@ -127,9 +136,11 @@
 - 병원기록 조회 및 유형별 필터링
 - 병원 영수증 OCR 업로드 후 날짜, 병원명, 금액, 진료유형 자동 추출
 
+### 5. 재정관리
 <img width="800" height="450" alt="금쪽같은 내새끼 PPT_page-0022" src="https://github.com/user-attachments/assets/1d0773ab-1c30-435a-be40-671e2773ac43" />
 
-### 5. 재정관리
+<br>
+
 - 반려동물 관련 소비 내역 조회
 - 월간/일간 지출 요약 및 카테고리 분석
 - 월별 소비 리포트 제공
@@ -464,5 +475,3 @@ docker compose up -d
 4. 타겟 마케팅 및 외부 서비스 연계 전략
 - Feedback: "어떻게 마케팅하여 사용자를 끌어모을 것인가?"
 - Insight (팀 대응): 선우 님이 답변하신 "반려동물 접종 기록을 활용한 하나은행 트래블로그(여행) 및 펫 프렌들리 카페 연계 마케팅"은 기획의 가치를 크게 높인 훌륭한 전략이었습니다. 다만, 이렇게 매력적이고 설득력 있는 마케팅 포인트가 발표 PPT 자료에 명시적으로 담기지 않아 심사위원들을 선제적으로 설득하지 못한 점은 아쉬움으로 남습니다. 좋은 기획은 코드뿐만 아니라 발표 스토리텔링에도 적극적으로 녹여내야 한다는 것을 배웠습니다.
-
-<img width="800" height="450" alt="금쪽같은 내새끼 PPT_page-0035" src="https://github.com/user-attachments/assets/1be06490-895d-4a6e-969c-296d50305e45" />
