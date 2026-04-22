@@ -25,25 +25,6 @@
 ## 💭 개요
 <img width="800" height="450" alt="금쪽같은 내새끼 PPT_page-0010" src="https://github.com/user-attachments/assets/2babe1ac-e261-4267-ab3c-d819961cf42e" />
 
-### 배경
-<p>
-  <img src="https://github.com/user-attachments/assets/4d2368c7-6b66-4bcd-9153-8a43100219b0" alt="금쪽같은 내새끼 PPT_page-0003" width="49%" />
-  <img src="https://github.com/user-attachments/assets/becb1b14-5bf4-44b4-9147-0b432029fa51" alt="금쪽같은 내새끼 PPT_page-0004" width="49%" />
-  <br> <img src="https://github.com/user-attachments/assets/48e38456-c9b9-4ddc-8b62-7db681643c90" alt="금쪽같은 내새끼 PPT_page-0005" width="49%" />
-  <img src="https://github.com/user-attachments/assets/78d5d6d6-7ffd-43af-b5df-a7cc98b85e83" alt="금쪽같은 내새끼 PPT_page-0006" width="49%" />
-  <br> <img src="https://github.com/user-attachments/assets/44f4cc86-3dfb-4b11-bdc9-0001cd8826d7" alt="금쪽같은 내새끼 PPT_page-0007" width="49%" />
-  <img src="https://github.com/user-attachments/assets/a4f8440b-2f8e-4376-99bd-20e3fbe1a89e" alt="금쪽같은 내새끼 PPT_page-0008" width="49%" />
-  <br> <img src="https://github.com/user-attachments/assets/d4226b76-afab-4ac6-a633-348a955de818" alt="금쪽같은 내새끼 PPT_page-0009" width="49%" />
-  <img src="https://github.com/user-attachments/assets/00d813d2-cb6e-4e1f-8837-f467cdb8fa3a" alt="금쪽같은 내새끼 PPT_page-0011" width="49%" />
-  <br> <img src="https://github.com/user-attachments/assets/a46c174b-49a7-43a6-932e-41caf6689a5e" alt="금쪽같은 내새끼 PPT_page-0012" width="49%" />
-  <img src="https://github.com/user-attachments/assets/8b34828e-ec25-4f11-90ac-2797f872d070" alt="금쪽같은 내새끼 PPT_page-0013" width="49%" />
-  <br> <img src="https://github.com/user-attachments/assets/3e549bb3-4ee0-4909-a9d1-e3f75a0c9b76" alt="금쪽같은 내새끼 PPT_page-0014" width="49%" />
-  <img src="https://github.com/user-attachments/assets/6d65effc-7648-4e13-bbea-2bbf9443bebb" alt="금쪽같은 내새끼 PPT_page-0015" width="49%" />
-  <br> <img src="https://github.com/user-attachments/assets/aad601e5-65a8-48e5-83d9-d5f54bc9bf52" alt="금쪽같은 내새끼 PPT_page-0016" width="49%" />
-  <img src="https://github.com/user-attachments/assets/90644390-c885-4769-81f4-9bbc293d5f93" alt="금쪽같은 내새끼 PPT_page-0017" width="49%" />
-  <br> <img src="https://github.com/user-attachments/assets/6823b083-09f4-40d3-8f56-1efeb04b0b3a" alt="금쪽같은 내새끼 PPT_page-0031" width="49%" />
-</p>
-
 ## 👫 금쪽이들
 > 시니어(백엔드·파이널) 프로젝트 1팀
 <img width="800" height="450" alt="금쪽같은 내새끼 PPT_page-0033" src="https://github.com/user-attachments/assets/dc617277-b26e-4435-b8db-a751c206f197" />
@@ -59,13 +40,13 @@
 | <img src="https://github.com/hyeok1028.png" width="100px;"/> | **허혁** <br> [@hyeok1028](https://github.com/hyeok1028) | **Data Interface Specialist** <br> · <br> Full Stack Developer | <**프론트엔드 구조 설계 및 공통 컴포넌트 구축**> <br> - Atomic Design 기반 UI 구조 설계 <br> - 재사용 가능한 컴포넌트 설계를 통해 개발 효율성 향상 <br><br> <**핵심 사용자 인터페이스 개발**> <br> - 메인 홈 및 설정 화면 구현 <br> - 사용자 흐름 중심 UI 설계 및 구현 <br><br> <**데이터 기반 UI 개선**> <br> - 반려동물 및 재정 데이터를 반영한 UI 구성 <br> - 사용자 인터랙션 최적화 및 접근성 개선 <br><br> <**최종 발표 및 서비스 전달**> <br> - 프로젝트 결과 발표 담당 <br> - 서비스 구조, 핵심 기능 및 데이터 기반 금융 연결 흐름 전달 <br><br> <**Full Stack 개발 수행**> <br> - 재정·건강 데이터를 연결한 추천 로직 및 화면 반영 구조 설계 |
 
 ## 🛠️ 기술 스택 및 툴
-### [Frontend]
+### [프론트엔드]
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-### [Backend & DB]
+### [백엔드 & DB]
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
@@ -74,14 +55,14 @@
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
 
-### [Testing & AI/API]
+### [테스트 & AI/API]
 ![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-412991?style=for-the-badge&logo=googlegemini&logoColor=white)
 <!-- ![Google Maps](https://img.shields.io/badge/Google%20Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white) -->
 ![Resend](https://img.shields.io/badge/Resend-000000?style=for-the-badge&logo=resend&logoColor=white)
 
-### [Infrastructure & Tools]
+### [인프라]
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -92,7 +73,7 @@
 ![PNPM](https://img.shields.io/badge/PNPM-FFCA28?style=for-the-badge&logo=pnpm&logoColor=black)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
 
-### [Mobile & Hybrid]
+### [모바일 하이브리드]
 ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white)
 ![Apple HealthKit](https://img.shields.io/badge/Apple%20HealthKit-F92E2E?style=for-the-badge&logo=apple-health&logoColor=white)
@@ -415,6 +396,7 @@
 ## 📺 시연 영상
 [![시연 영상 보러가기](https://img.youtube.com/vi/X2XGyBBq22s/maxresdefault.jpg)](https://www.youtube.com/watch?v=X2XGyBBq22s)
 
+<!--
 ## 🪾 Branch 전략
 ```
 본 프로젝트는 빠른 개발과 협업 효율을 위해 초기에는 TBD (Trunked Based Development) 방식을 적용하고,
@@ -429,6 +411,7 @@
 ※ dev : 개발 및 통합 기준 브랜치
 ※ main : 배포용 브랜치
 ```
+-->
 
 ## ⚠️ 주의사항
 > Clone 후, FE/BE 폴더별 패키지 설치 및 설정 각각 필요
@@ -451,7 +434,7 @@ docker compose up -d
 ```
 
 ### 3. 배포
-- 배포용 브랜치는 dev로, pr 후 Actions 탭 확인해서 정상적으로 완료됐는지 꼭! 확인!하세요.
+- 배포용 브랜치는 dev로, pr 후 Actions 탭에서 정상 작동되는지 꼭! 확인!하세요.
 
 ## 🤔 회고
 ### <팀>
@@ -461,17 +444,17 @@ docker compose up -d
 > 이번 최종 발표 질의응답을 통해 우리 서비스의 강점과 보완해야 할 비즈니스적 한계를 명확히 파악할 수 있었습니다. 실제 서비스 운영과 수익 창출을 위한 현실적인 고민에 대한 인사이트를 얻었습니다.
 
 1. 서비스 정체성과 유저 시나리오의 구체화
-- Feedback: "가족 금융 서비스의 정의가 모호하다. 현재 구조는 개인 통장인데 가족 금융으로 어떻게 확장되는가?"
-- Insight: '가족 금융'이라는 방향성에 대해 단순한 '확장성'을 언급하는 것만으로는 설득력이 다소 부족했습니다. 추후에는 "부부 공동 펫 케어 통장"이나 "가족 구성원 간 반려동물 지출/산책 기록 공유 기능" 등 개인 통장에서 가족 단위 서비스로 넘어가는 구체적인 전환 플로우와 UI/UX 시나리오가 뒷받침되어야 함을 깨달았습니다.
+- 피드백: "가족 금융 서비스의 정의가 모호하다. 현재 구조는 개인 통장인데 가족 금융으로 어떻게 확장되는가?"
+- 인사이트: '가족 금융'이라는 방향성에 대해 단순한 '확장성'을 언급하는 것만으로는 설득력이 다소 부족했습니다. 추후에는 "부부 공동 펫 케어 통장"이나 "가족 구성원 간 반려동물 지출/산책 기록 공유 기능" 등 개인 통장에서 가족 단위 서비스로 넘어가는 구체적인 전환 플로우와 UI/UX 시나리오가 뒷받침되어야 함을 깨달았습니다.
 
-2. 킬러 기능 및 비즈니스 모델(BM) 다각화
-- Feedback: "보험 청구 서비스는 왜 없는가? 단순 상품 연계 수수료 외에 수익 모델은 무엇인가?"
-- Insight: 사용자를 락인시키기 위해서는 단순한 상품 추천과 함께 사용자가 실질적인 편리함을 느끼는 '간편 보험 청구' 같은 핵심 기능이 필요하다는 지적을 받았습니다. 또한, 금융 상품 가입 유도 수수료 외에 데이터 기반의 프리미엄 리포트 제공, 제휴처(동물병원, 용품점) 타겟 광고 등 수익 모델을 더욱 다각화해야 한다는 숙제를 얻었습니다.
+2. 킬러 기능 및 비즈니스 모델 다각화
+- 피드백: "보험 청구 서비스는 왜 없는가? 단순 상품 연계 수수료 외에 수익 모델은 무엇인가?"
+- 인사이트: 사용자를 락인시키기 위해서는 단순한 상품 추천과 함께, 사용자가 실질적인 편리함을 느끼는 '간편 보험 청구' 같은 핵심 기능이 필요하다는 지적을 받았습니다. 또한, 금융 상품 가입 유도 수수료 외에 데이터 기반의 프리미엄 리포트 제공, 제휴처(동물병원, 용품점) 타겟 광고 등 수익 모델(BM)을 더욱 다각화해야 한다는 숙제를 얻었습니다.
 
 3. 기술 도입의 비용 문제와 데이터 가치 증명
-- Feedback: "LLM 토큰 비용은 감당 가능한가?"
-- Insight: Gemini 등 생성형 AI도입 시 필연적으로 발생하는 운영 비용에 대한 날카로운 질문이었습니다. 이에 대해 '프롬프트 최적화를 통한 비용 절감 노력'을 어필한 것은 좋은 방어였습니다. 더 나아가, 사용자가 업로드하는 영수증 OCR 데이터와 대화 기록이 향후 하나은행 자체 LLM 모델 고도화를 위한 귀중한 반려동물 특화 데이터셋으로 활용될 수 있다는 점을 연계한 것은 우리 서비스의 데이터 자산 가치를 성공적으로 증명한 순간이었습니다.
+- 피드백: "LLM 토큰 비용은 감당 가능한가?"
+- 인사이트: 생성형 Gemini 등 AI 도입 시 필연적으로 발생하는 운영 비용에 대한 날카로운 질문이었습니다. 이에 대해 '프롬프트 최적화를 통한 비용 절감 노력'을 어필한 것은 좋은 방어였습니다. 더 나아가, 사용자가 업로드하는 영수증 OCR 데이터와 대화 기록이 향후 하나은행 자체 LLM 모델 고도화를 위한 귀중한 반려동물 특화 데이터셋으로 활용될 수 있다는 점을 연계한 것은 우리 서비스의 데이터 자산 가치를 성공적으로 증명한 순간이었습니다.
 
 4. 타겟 마케팅 및 외부 서비스 연계 전략
-- Feedback: "어떻게 마케팅하여 사용자를 끌어모을 것인가?"
-- Insight (팀 대응): 선우 님이 답변하신 "반려동물 접종 기록을 활용한 하나은행 트래블로그(여행) 및 펫 프렌들리 카페 연계 마케팅"은 기획의 가치를 크게 높인 훌륭한 전략이었습니다. 다만, 이렇게 매력적이고 설득력 있는 마케팅 포인트가 발표 PPT 자료에 명시적으로 담기지 않아 심사위원들을 선제적으로 설득하지 못한 점은 아쉬움으로 남습니다. 좋은 기획은 코드뿐만 아니라 발표 스토리텔링에도 적극적으로 녹여내야 한다는 것을 배웠습니다.
+- 피드백: "어떻게 마케팅하여 사용자를 끌어모을 것인가?"
+- 인사이트 (팀 대응): 선우 님이 답변하신 "반려동물 접종 기록을 활용한 하나은행 트래블로그(여행) 및 펫 프렌들리 카페 연계 마케팅"은 기획의 가치를 크게 높인 훌륭한 전략이었습니다. 다만, 이렇게 매력적이고 설득력 있는 마케팅 포인트가 발표 PPT 자료에 명시적으로 담기지 않아 심사위원들을 선제적으로 설득하지 못한 점은 아쉬움으로 남습니다. 좋은 기획은 코드뿐만 아니라 발표 스토리텔링에도 적극적으로 녹여내야 한다는 것을 배웠습니다.
