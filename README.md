@@ -59,8 +59,8 @@
 ![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-412991?style=for-the-badge&logo=googlegemini&logoColor=white)
-<!-- ![Google Maps](https://img.shields.io/badge/Google%20Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white) -->
 ![Resend](https://img.shields.io/badge/Resend-000000?style=for-the-badge&logo=resend&logoColor=white)
+<!-- ![Google Maps](https://img.shields.io/badge/Google%20Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white) -->
 
 ### [인프라]
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -449,7 +449,7 @@ docker compose up -d
 
 2. 킬러 기능 및 비즈니스 모델 다각화
 - 피드백: "보험 청구 서비스는 왜 없는가? 단순 상품 연계 수수료 외에 수익 모델은 무엇인가?"
-- 인사이트: 사용자를 락인시키기 위해서는 단순한 상품 추천과 함께, 사용자가 실질적인 편리함을 느끼는 '간편 보험 청구' 같은 핵심 기능이 필요하다는 지적을 받았습니다. 또한, 금융 상품 가입 유도 수수료 외에 데이터 기반의 프리미엄 리포트 제공, 제휴처(동물병원, 용품점) 타겟 광고 등 수익 모델(BM)을 더욱 다각화해야 한다는 숙제를 얻었습니다.
+- 인사이트: 사용자를 락인시키기 위해서는 단순한 상품 추천과 함께, 사용자가 실질적인 편리함을 느끼는 '간편 보험 청구' 같은 핵심 기능이 필요하다는 지적을 받았습니다. 또한, 금융 상품 가입 유도 수수료 외에 데이터 기반의 프리미엄 리포트 제공, 제휴처(동물병원, 용품점) 타겟 광고 등 수익 모델을 더욱 다각화해야 한다는 숙제를 얻었습니다.
 
 3. 기술 도입의 비용 문제와 데이터 가치 증명
 - 피드백: "LLM 토큰 비용은 감당 가능한가?"
